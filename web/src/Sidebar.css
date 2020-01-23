@@ -1,0 +1,69 @@
+aside {
+    width: 320px;
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 30px 20px;
+}
+
+aside strong {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #333;
+    text-transform: uppercase;
+}
+
+aside form {
+    margin-top: 30px;
+}
+
+aside form .input-block + .input-block {    /* Pega todo input que tem um antes, */
+    margin-top: 20px;                       /* ou seja menos o primeiro que não tem */
+}
+
+aside form .input-group {
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+aside form .input-group .input-block {
+    margin-top: 0;
+}
+
+aside form .input-block label {
+    color: #5e5e5e;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+aside form .input-block input {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+    border: 0;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+aside form button[type=submit] {
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    background: #C9DFF2;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #232323;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+aside form button[type=submit]:hover {
+    background: #495B73;
+}

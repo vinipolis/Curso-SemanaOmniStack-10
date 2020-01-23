@@ -41,6 +41,8 @@ module.exports = {
 
 
 
+// Usando conceito de desistruturação const { name = login } se o nome não existir, pega o login
+
 // index: mostrar um lista
 // show: mostra um unico
 // store: para criar
